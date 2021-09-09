@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+@keyframes 
+glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00beafda, 0 0 40px #00beafda, 0 0 50px #00beafda, 0 0 60px #00beafda, 0 0 70px #00beafda;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ebe6e8, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+.title {
+	height: 150px;
+	width: 700px;
+	font-size: 125px;
+	border-style: groove;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 20px;
+	border-bottom-color: #072edb;
+	border-left-color: #1f64ed;
+	border-right-color: #1f64ed;
+	border-top-color: #1120f0;
+	background-color: black;
+	border-width: 10px;
+	margin-left: 350px;
+	color: aqua;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+.clock {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(243, 19, 176);
+    margin-left: 385px;
+    margin-top: 52px;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    width: 635px;
+}
+#quote1 {
+    font-size: 40px;
+    margin-top: 90px;
+    color: rgb(243, 10, 165);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* .quote2{
+    font-size: 40px;
+}
+
+.quote3{
+    font-size: 40px;
+}
+
+.quote4{
+    font-size: 40px;
+}
+
+.quote5{
+    font-size: 40px;
+} */
