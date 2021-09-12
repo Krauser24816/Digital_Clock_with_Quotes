@@ -1,7 +1,12 @@
 body {
     background-color: black;
+    padding: 0; 
+    margin: 0;
 }
 
+
+/* Got this code of text shadow on W3Schools and edited it.
+   Link: - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text */
 @keyframes 
 glow {
     from {
@@ -59,19 +64,3 @@ glow {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
-
-/* .quote2{
-    font-size: 40px;
-}
-
-.quote3{
-    font-size: 40px;
-}
-
-.quote4{
-    font-size: 40px;
-}
-
-.quote5{
-    font-size: 40px;
-} */
