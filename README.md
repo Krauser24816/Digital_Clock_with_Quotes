@@ -21,4 +21,14 @@ The animation is created by gradually changing one of CSS styles to another.
 
 Link for article of Keyframes:- https://www.w3schools.com/css/css3_animations.asp
 
-  
+
+## How animation is used in this code 
+
+| Code     | Useage                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| -webkit-animation: glow 1s ease-in-out infinite alternate; | For working in Chrome, Opera and Safari. Glow is name of keyframe. 1s is time. Till infinite it will glow|
+| -moz-animation: glow 1s ease-in-out infinite alternate; | For working in Mozilla. Glow is name of keyframe. 1s is time. Till infinite it will glow|
+| animation: glow 1s ease-in-out infinite alternate; | For rest of the browsers. |
+| text-shadow: | Used this property for glowing text. We keep on differing shadow color so that it appears that it is glowing. |
+
+
