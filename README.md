@@ -24,7 +24,7 @@ Link for article of Keyframes:- https://www.w3schools.com/css/css3_animations.as
 
 ## How animation is used in this code 
 
-| Code     | Useage                                                                |
+| Code     | Explanation                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | -webkit-animation: glow 1s ease-in-out infinite alternate; | For working in Chrome, Opera and Safari. Glow is name of keyframe. 1s is time. Till infinite it will glow|
 | -moz-animation: glow 1s ease-in-out infinite alternate; | For working in Mozilla. Glow is name of keyframe. 1s is time. Till infinite it will glow|
